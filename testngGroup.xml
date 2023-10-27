@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome" />
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="TestGroup">
+		<groups>
+			<run>
+				<include name="enterprise2" />
+			</run>
+		</groups>
+		<classes>
+			<class name="registerTestCases.TC25587_AccountRegistration4Test" />
+			<class name="loginTestcases.TC0013_CheckingElements_Homepage" />
+			<class name="loginTestcases.TC0022LMS_BundleFunctionality" />
+			<class name="registerTestCases.TC25470_AccountRegistration2Test" />
+			<class name="registerTestCases.TC25546_AccountRegistration3Test" />
+			<class
+				name="registerTestCases.TC25618_AccountRegistrationForm3Negative" />
+			<class name="loginTestcases.TC0037_CertificatesFunctionality" />
+			<class name="loginTestcases.TC0025_Interactivelabs_CombinedFilter" />
+			<class name="loginTestcases.TC0019_LMS_shortCoursesFunctionality" />
+			<class name="loginTestcases.TC0027_Enterprise_E2Eprocess" />
+			<class name="loginTestcases.TC0030_EnterpriseFormValidation" />
+			<class name="loginTestcases.TC0036_ForgotPasswordNegative" />
+			<class
+				name="loginTestcases.TC0033_FilterSearchNegativeFunctionality" />
+			<class name="registerTestCases.TC25450_AccountRegistrationTest" />
+			<class name="loginTestcases.TC0028_EnterpriseCalendarValidation" />
+			<class name="loginTestcases.TC0020_LMS_SearchFunctionality" />
+			<class name="loginTestcases.TC0031_SearchNegativeFunctionality" />
+			<class name="loginTestcases.TC0017SearchFilterFunctionality" />
+			<class
+				name="registerTestCases.TC25756_CheckingElements_Registerform" />
+			<class name="loginTestcases.TC0021_LMS_LearningPathFunctionality" />
+			<class name="loginTestcases.TC0032_SearchAllFilterFunctionality" />
+			<class name="loginTestcases.TC25693_Update_accountSetting" />
+			<class name="loginTestcases.TC0034_LMS_MicroDegreeFunctionality" />
+			<class name="loginTestcases.TC0023_Interactivelab_TypeFilter" />
+			<class name="loginTestcases.TC26068_BrowseSections" />
+			<class name="loginTestcases.TC25692_LoginpageNegative" />
+			<class name="loginTestcases.TC0024_Interactivelab_Categoryfilter" />
+			<class name="loginTestcases.TC0029_EnterpriseTimeZone" />
+			<class name="loginTestcases.TC0038_InteractiveLabLunchFnctionality" />
+			<class
+				name="registerTestCases.TC25589_AccountRegistrationForm2Negative" />
+			<class name="loginTestcases.TC0026_Interactivelabs_QuickFilter" />
+			<class name="loginTestcases.TC26073_UpdateAccountsettingNegative" />
+			<class
+				name="registerTestCases.TC25619_AccountRegistrationForm4Negative" />
+			<class name="loginTestcases.TC25620_LoginFunctionality" />
+			<class name="loginTestcases.TC0016_SearchFunctionality" />
+			<class name="loginTestcases.TC0018_FilterSearchFunctionality" />
+			<class name="loginTestcases.TC005_LoginFunctionality" />
+			<class
+				name="registerTestCases.TC25588_AccountRegistrationForm1Negative" />
+		</classes>
+	</test> <!--
+	TestGroup -->
+</suite> <!--
+Suite -->
